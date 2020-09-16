@@ -1,0 +1,41 @@
+.container_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 2.5em 0 1.25em;
+    height: 15vh;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.header__logo {
+    width: 18.063em;
+    height: 2.25em;
+}
+
+.header__logo img {
+    width: 100%;
+}
+
+.cart {
+
+}
+
+.cart__count {
+
+}
+
+@media screen and (max-width: 830px) {
+    .header {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .header__logo {
+        font-size: 9px;
+    }
+}

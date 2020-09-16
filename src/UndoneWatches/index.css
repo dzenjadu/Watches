@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    font-size: 16px;
+    margin: 0;
+    background-color: #404040;
+    font-family: Segoe UI Historic;
+}
+
+#root {
+    overflow: hidden;
+}
+
+.button {
+    background-color: #404040;
+    color: #e1e1e1;
+    font-family: Arial;
+    font-size: .75em;
+    border: none;
+    text-transform: uppercase;
+    outline: none;
+    padding: 1.25em 1.667em;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.button:hover {
+    background-color: #4f4f4f;
+}

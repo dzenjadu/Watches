@@ -1,0 +1,36 @@
+.details {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.details__title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .938em;
+    margin: 1.333em 0 .567em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 830px) {
+    .details {
+        grid-row: 1;
+        width: 12.438em;
+        font-size: 16px;
+    }
+
+    .details__title {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .details {
+        width: 8.838em;
+        /*font-size: 16px;*/
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .details {
+        font-size: 13px;
+    }
+}

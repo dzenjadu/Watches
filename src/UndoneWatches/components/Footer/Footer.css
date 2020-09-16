@@ -1,0 +1,15 @@
+.footer {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e1e1e1;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+@media screen and (max-width: 830px) {
+    .footer {
+        padding: 1.071em 0;
+    }
+}

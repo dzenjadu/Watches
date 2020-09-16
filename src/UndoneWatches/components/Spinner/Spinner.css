@@ -1,0 +1,115 @@
+@keyframes spinner {
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.spinner div {
+    box-sizing: border-box !important
+}
+
+.spinner > div {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 4px solid #000;
+    border-color: #404040 transparent #404040 transparent;
+    animation: spinner 1.1627906976744184s linear infinite;
+}
+
+.spinner > div:nth-child(2), .spinner > div:nth-child(4) {
+    width: 32px;
+    height: 32px;
+    top: 6px;
+    left: 6px;
+    animation: spinner 1.1627906976744184s linear infinite reverse;
+}
+
+.spinner > div:nth-child(2) {
+    border-color: transparent #404040 transparent #404040
+}
+
+.spinner > div:nth-child(3) {
+    border-color: transparent
+}
+
+.spinner > div:nth-child(3) div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(45deg);
+}
+
+.spinner > div:nth-child(3) div:before, .spinner > div:nth-child(3) div:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: -4px;
+    left: 16px;
+    background: #404040;
+    border-radius: 50%;
+    box-shadow: 0 40px 0 0 #404040;
+}
+
+.spinner > div:nth-child(3) div:after {
+    left: -4px;
+    top: 16px;
+    box-shadow: 40px 0 0 0 #404040;
+}
+
+.spinner > div:nth-child(4) {
+    border-color: transparent;
+}
+
+.spinner > div:nth-child(4) div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(45deg);
+}
+
+.spinner > div:nth-child(4) div:before, .spinner > div:nth-child(4) div:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: -4px;
+    left: 10px;
+    background: #404040;
+    border-radius: 50%;
+    box-shadow: 0 28px 0 0 #404040;
+}
+
+.spinner > div:nth-child(4) div:after {
+    left: -4px;
+    top: 10px;
+    box-shadow: 28px 0 0 0 #404040;
+}
+
+.loadingio-spinner-double-ring-z7fogpm0pr {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.spinner {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+}
+
+.spinner div {
+    box-sizing: content-box;
+}

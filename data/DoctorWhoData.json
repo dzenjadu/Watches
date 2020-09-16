@@ -1,0 +1,136 @@
+{
+  "doctors": [
+    {
+      "id": 11,
+      "name": "11й Доктор",
+      "img": {
+        "item": "doctors/11_doctor_item.jpg",
+        "page": "doctors/11_doctor_page.jpg"
+      },
+      "details": {
+        "gender": "Мужской",
+        "race": [
+          "Галлифреец",
+          "Повелитель Времени"
+        ],
+        "family": {
+          "wife": "Ривер Сонг",
+          "motherInLaw": "Эми Понд",
+          "fatherInLaw": "Рори Уильямс"
+        },
+        "planet": "Галлифрей",
+        "birth": "В своей ТАРДИС после регенерации предыдущего воплощения из-за радиации",
+        "death": "900 лет осады Трензалора, получил новый цикл регенераций от Повелителей Времени"
+      },
+      "description": [
+        {
+          "title": "Описание",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+        },
+        {
+          "title": "Описание2",
+          "text": "2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "12й Доктор",
+      "img": {
+        "item": "doctors/12_doctor_item.jpg",
+        "page": "doctors/12_doctor_item.jpg"
+      },
+      "details": {
+        "gender": "Мужской",
+        "race": [
+          "Галлифреец",
+          "Повелитель Времени"
+        ],
+        "family": {
+          "wife": "Ривер Сонг"
+        },
+        "planet": "Галлифрей",
+        "birth": "в своей ТАРДИС после 900-летней осады Трензалора и первой регенерации нового цикла",
+        "death": "регенерировал в своей ТАРДИС от повреждений после битвы с киберлюдьми, примирившись с нуждой перемены"
+      },
+      "description": [
+        {
+          "title": "Описание",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+        }
+      ]
+    }
+  ],
+  "companions": [
+    {
+      "id": 1,
+      "name": "Эми Понд",
+      "img": {
+        "item": "companions/amy_pond_item.jpg",
+        "page": "companions/amy_pond_item.jpg"
+      },
+      "details": {
+        "nickname": [
+          "Девочка, которая ждала"
+        ],
+        "doings": [
+          "Киссограмма",
+          "Модель",
+          "Писатель"
+        ],
+        "gender": "Женский",
+        "race": [
+          "Человек"
+        ],
+        "family": {
+          "fatherInLaw": "Рори Уильямс"
+        },
+        "planet": "Земля",
+        "birth": "Шотландия, 1989",
+        "death": "Смерть"
+      },
+      "description": [
+        {
+          "title": "Описание",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Клара Освальд",
+      "img": {
+        "item": "companions/clara_item.jpg",
+        "page": "companions/clara_item.jpg"
+      },
+      "details": {
+        "nickname": [
+          "Девушка, умершая дважды",
+          "Девочка с суфле",
+          "Невозможная девчонка"
+        ],
+        "doings": [
+          "Няня",
+          "Учитель"
+        ],
+        "gender": "Женский",
+        "race": [
+          "Человек",
+          "Далек (одна из копий)"
+        ],
+        "family": {
+          "wife": "Ривер Сонг"
+        },
+        "planet": "Земля",
+        "birth": "Блэкпул, 23 ноября 1986",
+        "death": "Лондон, первая половина 21 века"
+      },
+      "description": [
+        {
+          "title": "Описание",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+        }
+      ]
+    }
+  ]
+}

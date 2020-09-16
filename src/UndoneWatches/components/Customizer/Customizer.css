@@ -1,0 +1,38 @@
+.container_customizer {
+    display: grid;
+    grid-template-columns: 1fr minmax(29.688em, 1fr);
+    grid-template-rows: 3.875em 1fr;
+}
+
+.customizer {
+    background-color: #e1e1e1;
+    padding: 1.875em 0;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 830px) {
+    .container_customizer {
+        grid-template-columns: none;
+        grid-template-rows: none;
+        width: 38.25em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .container_customizer {
+        width: 29.5em;
+    }
+
+    .customizer {
+        min-height: 65vh;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .container_customizer {
+        width: 23.25em;
+    }
+}

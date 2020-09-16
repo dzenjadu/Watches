@@ -1,0 +1,131 @@
+.categories {
+    display: flex;
+}
+
+.categories__item {
+    width: 3.813em;
+    height: 3.813em;
+    background-color: #404040;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: background-image .2s, background-color .2s;
+}
+
+.categories__item:not(:last-child) {
+    margin-right: 0.5em;
+}
+
+.categories__item.active {
+    background-color: #fff;
+}
+
+.categories__item:hover {
+    background-color: #fff;
+}
+
+.categories__item.strap {
+    background-image: url(/images/icons/strap.png);
+}
+
+.categories__item.strap:hover,
+.categories__item.strap.active {
+    background-image: url(/images/icons/strap_black.png);
+}
+
+.categories__item.dial {
+    background-image: url(/images/icons/dial.png);
+}
+
+.categories__item.dial:hover,
+.categories__item.dial.active {
+    background-image: url(/images/icons/dial_black.png);
+}
+
+.categories__item.dial_print {
+    background-image: url(/images/icons/dial_print.png);
+}
+
+.categories__item.dial_print:hover,
+.categories__item.dial_print.active {
+    background-image: url(/images/icons/dial_print_black.png);
+}
+
+.categories__item.case {
+    background-image: url(/images/icons/case.png);
+}
+
+.categories__item.case:hover,
+.categories__item.case.active {
+    background-image: url(/images/icons/case_black.png);
+}
+
+.categories__item.bezel {
+    background-image: url(/images/icons/bezel.png);
+}
+
+.categories__item.bezel:hover,
+.categories__item.bezel.active {
+    background-image: url(/images/icons/bezel_black.png);
+}
+
+.categories__item.hands {
+    background-image: url(/images/icons/hands.png);
+}
+
+.categories__item.hands:hover,
+.categories__item.hands.active {
+    background-image: url(/images/icons/hands_black.png);
+}
+
+.categories__item.small_hands {
+    background-image: url(/images/icons/small_hands.png);
+}
+
+.categories__item.small_hands:hover,
+.categories__item.small_hands.active {
+    background-image: url(/images/icons/small_hands_black.png);
+}
+
+.categories__item.second_hands {
+    background-image: url(/images/icons/second_hands.png);
+}
+
+.categories__item.second_hands:hover,
+.categories__item.second_hands.active {
+    background-image: url(/images/icons/second_hands_black.png);
+}
+
+@media screen and (max-width: 830px) {
+    .categories {
+        grid-row: 2;
+        grid-column: 1 / span 2;
+        font-size: 16px;
+        margin: 1.25em 0;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .categories {
+        grid-row: 2;
+        grid-column: 1 / span 2;
+        font-size: 16px;
+        margin: 1.25em 0;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .categories {
+        font-size: 12px;
+    }
+
+    .categories__item {
+        background-size: 75%;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .categories {
+        font-size: 9.4px;
+    }
+}
